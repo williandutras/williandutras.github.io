@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <description>Me chamo Willian Dutras e meu grande foco é o Front-End, hoje me aventuro no mundo do empreendedorismo com minha startup Pear Coffee.</description>
+    <link>https://williandutras.com/</link>
+    <atom:link href="https://williandutras.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 26 Aug 2016 18:16:40 -0400</pubDate>
+    <lastBuildDate>Fri, 26 Aug 2016 18:16:40 -0400</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes.</description>
+        <pubDate>Mon, 18 Jul 2016 12:46:39 -0400</pubDate>
+        <link>https://williandutras.com/welcome-to-jekyll</link>
+        <guid isPermaLink="true">https://williandutras.com/welcome-to-jekyll</guid>
+        
+        <category>jekyll</category>
+        
+        
+        <category>jekyll</category>
+        
+      </item>
+    
+  </channel>
+</rss>

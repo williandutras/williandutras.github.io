@@ -1,0 +1,32 @@
+.content{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.main{
+  margin-top: 75px;
+}
+.post{
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  line-height: 0;
+  color: $azul-escuro;
+  a{
+    text-decoration: none;
+    color: $azul-escuro;
+  }
+  a:hover{color: $azul-claro; transition: all .25s linear;}
+  h1, h2{
+    font-weight: 800;
+    font-size: 36px;
+  }
+  p{
+    margin: 25px 0;
+    font-family: 'Lora', serif;
+    text-transform: initial;
+    line-height: 1.3;
+  }
+  hr{
+    width: 300px;
+    margin: 0 0 70px 0;
+  }
+}

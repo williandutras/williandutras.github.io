@@ -1,0 +1,62 @@
+@keyframes sway {
+  0% {
+    transform: rotate(8deg);
+  }
+  50% {
+    transform: rotate(-8deg);
+  }
+  100% {
+    transform: rotate(8deg);
+  }
+}
+.perfil {
+  animation: sway 2.4s infinite;
+  animation-timing-function: ease-in-out;
+  -webkit-transform-origin: top;
+  -moz-transform-origin: top;
+  transform-origin: top;
+  margin-top: -10px;
+  margin-bottom: 170px;
+  height: 5%;
+  z-index: 999;
+  text-transform: uppercase;
+}
+
+.williandutras {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+  background: url(../img/williandutras.jpg) no-repeat center;
+  background-size: cover;
+  border: 5px solid;
+  border-color: $azul-claro;
+  margin: 0 auto;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  padding-top: 25px;
+  font-weight: 800;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.corda {
+  height: 70px;
+  width: 5px;
+  background-color: $azul-claro;
+  content: "";
+  display: block;
+  margin-left: 50%;
+}
+
+.follow{
+  width: 190px;
+  margin: 0 auto 30px;
+  font-size: 14px;
+  font-family: 'Lora', serif;
+  color: #fff;
+}
+
+.copy{color: #fff; font-size: 12px;}

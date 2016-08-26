@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+    {% if site.posts.size == 0 %}
+      <div class="post">
+      <h2>Nada encontrado :/</h2>
+      <p>
+        Que merda né? Não se preocupe, juro que irei escrever algo sobre isso ainda, beleza?<br>
+        Faz o seguinte, me mande um e-mail, assim eu posso escrever isso o mais rápido possível :)<br>
+        Meu e-mail é <a href="mailto:williandutras15@gmail.com">williandutras15@gmail.com</a>
+      </p>
+    </div>
+    {% else %}
+
+    {% for post in site.posts %}
+    <div class="post">
+      <h2>
+        <a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a>
+      </h2>
+      <time>{{ post.date | date_to_string }}</time>
+      <p>
+        {{ post.content | strip_html | truncatewords: 50 }}
+      </p>
+      <hr>
+    </div>
+    {% endfor %}
+    {% endif %}
