@@ -29,6 +29,10 @@ span{
   font-size: 15px;
 }
 
+a{
+  text-decoration: none;
+}
+
 svg{
   fill: #fff;
   margin: 0 10px;
