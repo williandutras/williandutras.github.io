@@ -5,7 +5,7 @@
 }
 
 body{
-  background: url("../img/williandutras.jpg") no-repeat;
+  background: #191818;
   background-size: cover;
   text-align: center;
   color: #fff;
@@ -41,4 +41,25 @@ svg{
 
 svg:hover{
   fill: #00f0c5;
+}
+
+ul{
+  max-width: 380px;
+  margin: 0 auto;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 22px;
+  color: #ddd;
+}
+
+ul li a{
+  color: #00f0c582;
+  transition: all .25s linear;
+}
+
+ul li a:hover{
+  color: #00f0c5;
+}
+
+.home.list{
+  padding: 5% 0;
 }
