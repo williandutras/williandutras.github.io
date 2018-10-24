@@ -66,7 +66,7 @@ layout: default
     {
         var disqus_config = function () {
             this.page.url = '{{ site.url }}{{page.url}}';
-            this.page.identifier = '{{page.url}}';
+            this.page.identifier = '{{ site.url }}{{page.url}}';
         };
         var d = document, s = d.createElement('script');
         s.src = '//williandutras.disqus.com/embed.js';
